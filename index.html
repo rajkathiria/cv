@@ -1,186 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kathiriya Family tree</title>
-   <!-- <link rel="stylesheet" href="tree.css">-->
-    <style>
-    *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-body{
-    height: 100vh;
-    display:grid ;
-    align-items: center;
-    background: #f5f5f5;
-}
-.tree{
-    width: 100%;
-    height:auto;
-    text-align:center ;
-}
-.tree ul{
-    padding-top:20px;
-    position: relative;
-    transition: .5s;
-
-}
-.tree li{
-    display: inline-table;
-    text-align: center;
-    list-style-type: none;
-    position: relative;
-    padding: 10px;
-    transition: .5s;
-
-}
-.tree li:before, .tree li:after{
-    content: '';
-    position:absolute;
-    top: 0;
-    right:50%;
-    border-top: 1px solid #ccc;
-    width: 51%;
-    height: 10px;
-
-}
-.tree li:after{
-    right:auto;
-    left:50%;
-    border-left:1px solid #ccc;
-
-}
-.tree li:only-child:after, .tree li:only-child:before{
-    display: none;
-
-}
-.tree li:only-child{
-    padding-top: 0;
-}
-.tree li:first-child:before , .tree li:last-child:after{
-    border:0 none;
-}
-.tree li:last-child:before{
-    border-right:1px solid #ccc;
-    border-radius:0px 5px 0px 0px;
-}
-.tree li:first-child:after{
-    border-radius:5px 0px 0px 0px;
-}
-.tree ul ul:before{
-    content: '';
-    position: absolute;
-    top:0;
-    left:50%;
-    border-left:1px solid  #ccc;
-    width: 0;
-    height: 20px;
-
-}
-.tree a{
-    border: 1px solid #ccc;
-    padding: 10px;
-    display:inline-grid;
-    border-radius: 5px;
-    text-decoration-line: none;
-    border-radius:5px;
-    transition: .5s;
-
-}
-.tree a img{
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px ! important;
-    border-radius: 100px;
-    margin:auto;
-}
-.tree a span{
-    border:1px solid #ccc;
-    border-radius: 5px;
-    color:#666;
-    padding:8px;
-    font-size:12px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight:500;
-}
-/*Hover section*/
-.tree li a:hover , .tree li a:hover img, .tree li a:hover span, .tree li a:hover+ul li a{
-    background: #c8e4f8;
-    color:#000;
-    border:1px solid #94a0b4;
-    box-shadow:0px 0px 8px -5px #5f5f5f ;
-}
-.tree li a:hover+ul li:after, .tree li a:hover+ul li:before, .tree li a:hover+ul:before, .tree li a:hover+ul ul:before{
-    border-color: #94a0b4;
-}</style>
+<html>
+  <head><meta charset="utf-8">
+<title>viru_bhagat</title>    
 </head>
-<body>
-    <div class="tree">
-        <ul>
-            <li><a href="#"><img src="viraj.jpg" alt="the great parent"><span></span></a>
-                <ul>
-                    <li><a href="#"><img src="viraj.jpg" alt="grand parent"><span></span></a>
-                        <ul>
-                        <li><a href="#"><img src="viraj.jpg" alt=" parents"><span></span></a>
-                            <ul>
-                                <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                    <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                            <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-
-                            </ul>
-                        </li>
-                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                            <ul>
-                                <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                    <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-
-                            </ul>
-                        </li>
-                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                        <ul>
-                            <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-
-                        </ul>
-                        </li>
-                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                          <ul>
-                            <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                          </ul>
-                        </li>
-                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                             <ul>
-                                <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                    <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-
-                             </ul>
-                        </li>
-                        <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                            <ul>
-                                <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-                                    <li><a href="#"><img src="viraj.jpg" alt="children"><span></span></a>
-
-                            </ul>
-                        </li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><img src="viraj.jpg" alt="grand parent"><span></span></a><span></span></li>
-                    <li><a href="#"><img src="viraj.jpg" alt="grand parent"><span></span></a><span></span></li>
-                    <li><a href="#"><img src="viraj.jpg" alt="grand parent"><span></span></a><span></span></li>
-                    <li><a href="#"><img src="viraj.jpg" alt="grand parent "><span></span></a><span></span></li>
-
-                </ul>
-            </li>
-        </ul>
-    </div>
+  <body>
+      <table cellspacing="20" border: 1px>
+          <tr>
+              <td>
+                <img src="viraj.jpg" alt="viraj kathiria" title="viraj" height="100" weidth="100"> 
+              </td>
+              <td>
+                <h3>raj</h3>
+                <p>Founder and Owner of <strong><a href ="https://g.page/r/CcrDLiTKFkwcEA0">Kathiria & son's </a></strong></p>
+              </td>
+          </tr>
+          <tr>
+              
+          </tr>
+      </table>
+     <!--- <img src="https://scontent-maa2-1.xx.fbcdn.net/v/t1.6435-9/43582726_330122774212586_8767844120359075840_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=19026a&_nc_ohc=lKw7dAuC6CAAX9ILRxH&_nc_ht=scontent-maa2-1.xx&oh=267106ab414795efc6493542375298de&oe=61BAD44D" alt="viraj kathiria" height="100" weidth="100">-->
+      <img src="image/17861752_227569544386132_1044993232633987546_n.jpg" alt="viraj kathiria" title="viraj" height="100" weidth="100">
+    <h3 align="center">raj</h3>
+    <p align="center" style="color:brown">Founder and Owner of <strong><a href ="https://g.page/r/CcrDLiTKFkwcEA0">Kathiria & son's </a></strong></p>
+    <p><em>Go green </em><b><a href =https://animal-shelter-87.business.site/?utm_source=gmb&utm_medium=referral">SAHAJANAD</a></b></p>
+    <hr size="3" noshade>
+    <h3>Study</h3> 
+            <h5>-------using unorderedlist</h5>   
+    <ul><b>Primary</b>
+        <li>Ginus International School
+            <ul>
+                <li> L.K.G</li>
+            </ul>
+        </li>
+        <li>
+            Jay International School
+            <ul><li>1st to 3rd</li></ul>
+        </li>
+        <li>Shree Swaminarayan Gurukul Gayanbag
+                <ul><li>4th to 10th</li></ul>
+        </li>
+        <strong>Secondary</strong>
+        <li>Krishna International School
+            <ul><il>11th & 12th</il></ul>
+        </li>
+        <strong>U.G</strong>
+        <li>jain University
+            <ul><il>B.Tech
+                <ul><li>CSE<UL><LI>CTIS</LI></UL></li></ul>
+            </il></ul>
+        </li>
+        
     
-</body>
+    </ul>
+    <table>
+        <thead>
+            <th>names</th>
+            <th>usn</th>
+        </thead>
+        <tr>
+            <td>
+                raj
+            </td>
+            <td>
+                17
+            </td>
+        </tr>
+            <tr>
+            <td>shyam</td>
+            <td>18</td>
+
+        </tr>
+    </table>
+    
+    <HR SIZE="4" NOSHADE>
+        <H5>-------ordredlist</H5>
+       <a href="hobbies.html">HOBBIES</a><a href="contact.html">CONTACT</a>
+        
+       <!--- <OL type="I">
+            <LI>
+                  Swimming
+            </LI>
+            <LI>  Football
+            </LI>
+        </OL> -->
+        <p style="color:burlywood" title="viraj">i am</p>
+        <table style="border: 1px solid rgb(190, 25, 25);font-size: larger;">
+            
+             <tr>
+               
+                 <td style="border: 1px solid black;color:burlywood">java</td><br>
+                 <td style="border: 1px solid black">*****</td><br>
+                 
+             </tr>
+             <tr>
+                 <td style="border: 1px solid black">c</td>
+                 <td style="border: 1px solid black">*****</td>
+                
+             </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <table style="border: 1px solid rgb(190, 25, 25);font-size: larger;">
+            
+                        <tr>
+                          
+                            <td style="border: 1px solid black;color:burlywood">java</td><br>
+                            <td style="border: 1px solid black">*****</td><br>
+                            
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black">c</td>
+                            <td style="border: 1px solid black">*****</td>
+                           
+                        </tr>
+                   </table>
+                </td>
+                <td>
+                    <table style="border: 1px solid rgb(190, 25, 25);font-size: larger;">
+            
+                        <tr>
+                          
+                            <td style="border: 1px solid black;color:burlywood">java</td><br>
+                            <td style="border: 1px solid black">*****</td><br>
+                            
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black">c</td>
+                            <td style="border: 1px solid black">*****</td>
+                           
+                        </tr>
+                   </table>
+                </td>
+            </tr>
+        </table>
+    <!----<b>html b</b><br>
+    <strong>html</strong><br>
+    <i>html</i><br>
+    <em>html</em><br>
+    <mark>html</mark><br>
+    <small>html</small><br>
+    <del>html</del><br>
+    <ins>html</ins><br>
+    <sud>html</sud><br>
+    <sup>html</sup>
+    ---->
+  </body>
 </html>
