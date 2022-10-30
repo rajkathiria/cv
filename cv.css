@@ -11,29 +11,13 @@ body{
     /*color:#333;*/
     background: #e4e6e9;
 }
-/*.navbar{
-    height:auto;
-    display: grid;
-    grid-gap:5px;
-    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-    background: rgb(101, 101, 221);
-}
-img{
-    max-height:auto ;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 50%;
-    
-}
+
 .navbar a{
     color:#e4e6e9;
 }
 .navbar a:hover{
     color: black;
-}*/
+}
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -41,6 +25,8 @@ img{
     background: rgb(98, 98, 223);
     margin: 5px;
     padding: 10px;
+    flex-wrap: wrap;
+    
     
 }
 .header{
