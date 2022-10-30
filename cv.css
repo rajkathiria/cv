@@ -27,7 +27,6 @@ body{
     padding: 10px;
     flex-wrap: wrap;
     
-    
 }
 .header{
     display:flex;
@@ -43,9 +42,9 @@ body{
 .quality{
     display: flex;
     justify-content: space-around;
-    text-align: flex-start;
+    text-align:start;
     align-content:center;
-    gap: 20px;
+    flex-wrap: wrap;
     background-color: beige;
     
 
