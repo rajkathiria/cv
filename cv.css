@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    /*color:#333;*/
+    background: #e4e6e9;
+}
+/*.navbar{
+    height:auto;
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background: rgb(101, 101, 221);
+}
+img{
+    max-height:auto ;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    
+}
+.navbar a{
+    color:#e4e6e9;
+}
+.navbar a:hover{
+    color: black;
+}*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: rgb(98, 98, 223);
+    margin: 5px;
+    padding: 10px;
+    
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align:center;
+    align-content:center;
+    gap: 20px;
+    background-color: blanchedalmond;
+    
+}
+
+.quality{
+    display: flex;
+    justify-content: space-around;
+    text-align: flex-start;
+    align-content:center;
+    gap: 20px;
+    background-color: beige;
+    
+
+}
+.skills{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+    text-align: flex-start;
+    align-content:center;
+    background-color: rgb(180, 131, 226);
+  
+}
+.certification{
+    display: flex;
+    justify-content: space-around;
+    text-align: flex-start;
+    align-content:center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    text-align: flex-start;
+    align-content:center;
+    flex-wrap: wrap;
+    background-color: aqua;
+
+}
+img{
+   
+    padding: 10px;
+    margin: 10px;
+   
+}
